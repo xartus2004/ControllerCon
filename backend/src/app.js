@@ -20,7 +20,7 @@ import eventRouter from "./routes/event.routes.js"
 import eventUserRoute from "./routes/event-user.routes.js"
 import authRouter from "./routes/auth.routes.js"
 
-//routes declaration
+//routes declaration 
 app.use('/events', eventRouter)
 app.use('/users', userRouter)
 app.use('/auth', eventUserRoute)
